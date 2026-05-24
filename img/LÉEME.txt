@@ -1,0 +1,75 @@
+============================================================
+  BLACK GLOSS STETICAR — GUÍA DE IMÁGENES
+============================================================
+
+Sube tus fotos aquí en esta carpeta (img/) con exactamente
+estos nombres. La landing las carga automáticamente.
+
+Si una imagen no existe, la sección se ve igual de bien
+con el diseño de respaldo que ya tiene.
+
+------------------------------------------------------------
+  LOGO
+------------------------------------------------------------
+  logo.png
+  → Tu logo. Fondo transparente (PNG).
+  → Tamaño recomendado: mínimo 300px ancho.
+
+------------------------------------------------------------
+  HERO (foto principal arriba de la página)
+------------------------------------------------------------
+  hero-auto.jpg
+  → Foto de tu mejor trabajo. Auto brillando, de perfil o 3/4.
+  → Tamaño recomendado: 900 x 600 px.
+
+  hero-bg.jpg  (opcional)
+  → Foto de fondo del hero, se ve oscura/difuminada detrás.
+  → Tamaño recomendado: 1920 x 1080 px.
+
+------------------------------------------------------------
+  SERVICIOS (foto de cada servicio)
+------------------------------------------------------------
+  servicio-ceramic.jpg    → Ceramic coating aplicándose
+  servicio-pulido.jpg     → Pulido de pintura en proceso
+  servicio-ppf.jpg        → Paint Protection Film
+  servicio-interior.jpg   → Interior limpio / detallado
+  servicio-faros.jpg      → Faros restaurados
+  servicio-wash.jpg       → Lavado exterior / cera
+  → Tamaño recomendado: 600 x 400 px.
+
+------------------------------------------------------------
+  GALERÍA ANTES / DESPUÉS
+------------------------------------------------------------
+  antes-1.jpg    → Foto ANTES del trabajo 1
+  despues-1.jpg  → Foto DESPUÉS del trabajo 1
+
+  antes-2.jpg    → Foto ANTES del trabajo 2
+  despues-2.jpg  → Foto DESPUÉS del trabajo 2
+
+  antes-3.jpg    → Foto ANTES del trabajo 3
+  despues-3.jpg  → Foto DESPUÉS del trabajo 3
+
+  Tip: usa la misma encuadre en antes y después para
+  que el contraste impacte más.
+  → Tamaño recomendado: 600 x 450 px.
+
+------------------------------------------------------------
+  CLIENTES (fotos de testimonios, opcionales)
+------------------------------------------------------------
+  cliente-1.jpg  → Foto del cliente 1
+  cliente-2.jpg  → Foto del cliente 2
+  cliente-3.jpg  → Foto del cliente 3
+  → Tamaño recomendado: 200 x 200 px, cuadrada.
+
+------------------------------------------------------------
+  EQUIPO / TRABAJO A DOMICILIO (opcional)
+------------------------------------------------------------
+  equipo.jpg
+  → Foto de ti o tu equipo trabajando a domicilio,
+    tus herramientas, productos o el van/camioneta de trabajo.
+  → Tamaño recomendado: 700 x 450 px.
+
+============================================================
+  FORMATOS ACEPTADOS: JPG, JPEG, PNG, WEBP
+  (JPG es recomendado para fotos, PNG para logo)
+============================================================

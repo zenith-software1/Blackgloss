@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Gloss Steticar — Detallado Automotriz Premium</title>
+  <meta name="description" content="Black Gloss Steticar — detallado automotriz premium. Pulido, ceramic coating, restauración de pintura. Tu auto merece lo mejor." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Black Gloss Steticar" />
+  <meta property="og:description" content="Detallado automotriz premium. Pulido, ceramic coating y restauración de pintura." />
+  <meta property="og:type" content="website" />
+
+  <!--
+  ============================================================
+  IMAGEN OG (preview al compartir en redes sociales)
+  Reemplaza hero-auto.jpg por tu mejor foto de trabajo.
+  Tamaño recomendado: 1200 x 630 px
+  ============================================================
+  -->
+  <meta property="og:image" content="img/hero-auto.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="img/hero-auto.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+  NAV
+  ============================================================ -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#inicio" class="logo">
+
+        <!--
+        ════════════════════════════════════════
+        LOGO
+        Sube tu logo a:  img/logo.png
+        Tamaño recomendado: mínimo 300px de ancho, fondo transparente (PNG).
+        Si no subes el logo, se muestra el texto "BG / BLACK GLOSS" automáticamente.
+        ════════════════════════════════════════
+        -->
+        <img
+          src="img/logo.png"
+          alt="Black Gloss Steticar"
+          class="logo-img"
+          width="160"
+          height="40"
+
+
+          onerror="this.style.display='none'; document.querySelectorAll('.logo-fallback').forEach(el => el.style.display='flex');"
+        />
+        <span class="logo-fallback">
+          <span class="logo-mark">BG</span>
+          <span class="logo-text">BLACK GLOSS</span>
+        </span>
+
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn-sm nav-cta">Agendar</a>
+      <button class="hamburger" id="hamburger" aria-label="Menú" aria-controls="mobile-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#resultados">Resultados</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="btn">Agendar cita</a>
+  </div>
+
+  <!-- ============================================================
+  HERO
+  ============================================================ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="gloss-orb orb-1"></div>
+      <div class="gloss-orb orb-2"></div>
+      <div class="gloss-orb orb-3"></div>
+      <div class="grid-overlay"></div>
+
+      <!--
+      ════════════════════════════════════════
+      IMAGEN DE FONDO DEL HERO (opcional)
+      Sube una foto impactante de un auto recién detallado a: img/hero-bg.jpg
+      Tamaño recomendado: 1920 x 1080 px, oscura o con overlay
+      Si no subes la imagen, el fondo animado se ve igualmente genial.
+      ════════════════════════════════════════
+      -->
+      <img src="img/hero-bg.jpg" alt="" class="hero-bg-img" aria-hidden="true" width="1600" height="900" />
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge reveal">
+          <span class="dot"></span> Detallado Automotriz Premium
+        </div>
+        <h1 class="hero-title reveal reveal-delay-1">
+          Tu auto merece<br />
+          <span class="gradient-text">brillo de otro nivel</span>
+        </h1>
+        <p class="hero-subtitle reveal reveal-delay-2">
+          Ceramic coating, pulido de pintura y restauración profesional.<br class="br-desktop" />
+          <strong class="hero-domicilio">🚗 Vamos a donde estás tú.</strong>
+        </p>
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="#contacto" class="btn btn-lg">Agendar ahora</a>
+          <a href="#servicios" class="btn-ghost">Ver servicios →</a>
+        </div>
+        <div class="hero-stats reveal reveal-delay-4">
+          <div class="stat">
+            <span class="stat-num" data-target="800">0</span><span>+</span>
+            <span class="stat-label">Autos tratados</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="5">0</span><span> años</span>
+            <span class="stat-label">De experiencia</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="100">0</span><span>%</span>
+            <span class="stat-label">Satisfacción</span>
+          </div>
+        </div>
+      </div>
+
+      <!--
+      ════════════════════════════════════════
+      FOTO DEL AUTO (hero derecha en desktop, abajo en móvil)
+      Sube tu mejor foto de auto detallado a: img/hero-auto.jpg
+      Tamaño recomendado: 900 x 600 px
+      Si no hay imagen, se mantiene el auto SVG animado como respaldo.
+      ════════════════════════════════════════
+      -->
+      <div class="hero-car reveal reveal-delay-2">
+        <div class="hero-car-wrap">
+          <img
+            src="img/hero-auto.jpg"
+            alt="Auto detallado por Black Gloss Steticar"
+            class="hero-car-img"
+            width="900"
+            height="675"
+
+
+
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+          />
+          <!-- Respaldo SVG si no hay imagen -->
+          <div class="car-silhouette" style="display:none;">
+            <svg viewBox="0 0 600 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="300" cy="200" rx="280" ry="18" fill="url(#shadowGrad)"/>
+              <path d="M60 160 C60 160 80 120 130 100 C180 80 220 70 300 68 C380 66 420 80 470 100 C520 120 540 160 540 160 L540 175 C540 180 535 185 530 185 L70 185 C65 185 60 180 60 175 Z" fill="url(#bodyGrad)" stroke="url(#strokeGrad)" stroke-width="1.5"/>
+              <path d="M150 100 C160 75 190 55 240 48 C270 43 330 43 360 48 C410 55 440 75 450 100 Z" fill="url(#roofGrad)" stroke="url(#strokeGrad)" stroke-width="1"/>
+              <path d="M155 102 L175 68 C185 52 205 45 230 43 L260 41 L260 102 Z" fill="url(#glassGrad)" opacity="0.7"/>
+              <path d="M260 41 L340 41 L340 102 L260 102 Z" fill="url(#glassGrad)" opacity="0.8"/>
+              <path d="M340 41 L370 43 C395 45 415 52 425 68 L445 102 L340 102 Z" fill="url(#glassGrad)" opacity="0.7"/>
+              <circle cx="160" cy="180" r="28" fill="url(#wheelGrad)" stroke="#888" stroke-width="1"/>
+              <circle cx="160" cy="180" r="14" fill="#1a1a1a" stroke="#666" stroke-width="1"/>
+              <circle cx="160" cy="180" r="5" fill="#888"/>
+              <circle cx="440" cy="180" r="28" fill="url(#wheelGrad)" stroke="#888" stroke-width="1"/>
+              <circle cx="440" cy="180" r="14" fill="#1a1a1a" stroke="#666" stroke-width="1"/>
+              <circle cx="440" cy="180" r="5" fill="#888"/>
+              <rect x="62" y="148" width="30" height="14" rx="4" fill="url(#lightGrad)" opacity="0.9"/>
+              <rect x="508" y="148" width="30" height="14" rx="4" fill="#ff4444" opacity="0.7"/>
+              <path d="M100 160 Q300 145 500 160" stroke="url(#glossGrad)" stroke-width="2" opacity="0.5"/>
+              <defs>
+                <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#2a2a2a"/><stop offset="50%" stop-color="#111"/><stop offset="100%" stop-color="#0a0a0a"/>
+                </linearGradient>
+                <linearGradient id="roofGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#333"/><stop offset="100%" stop-color="#111"/>
+                </linearGradient>
+                <linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#4af" stop-opacity="0.3"/><stop offset="100%" stop-color="#07f" stop-opacity="0.15"/>
+                </linearGradient>
+                <linearGradient id="wheelGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#444"/><stop offset="100%" stop-color="#111"/>
+                </linearGradient>
+                <linearGradient id="lightGrad" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#fff7aa"/><stop offset="100%" stop-color="#ffd700"/>
+                </linearGradient>
+                <linearGradient id="strokeGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/>
+                </linearGradient>
+                <linearGradient id="glossGrad" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="transparent"/>
+                  <stop offset="30%" stop-color="#ffffff"/>
+                  <stop offset="70%" stop-color="#ffffff"/>
+                  <stop offset="100%" stop-color="transparent"/>
+                </linearGradient>
+                <radialGradient id="shadowGrad" cx="50%" cy="50%">
+                  <stop offset="0%" stop-color="#000" stop-opacity="0.5"/>
+                  <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="car-shine"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  SERVICIOS
+  ============================================================ -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Lo que hacemos</span>
+        <h2>Servicios <span class="gradient-text">premium</span></h2>
+        <p>Cada servicio diseñado para proteger y realzar la belleza de tu vehículo.</p>
+      </div>
+      <div class="services-grid">
+
+        <!--
+        ════════════════════════════════════════
+        IMÁGENES DE SERVICIOS (opcionales)
+        Sube fotos de cada servicio a la carpeta img/:
+          img/servicio-ceramic.jpg     — foto del ceramic coating aplicándose
+          img/servicio-pulido.jpg      — pulido de pintura
+          img/servicio-ppf.jpg         — Paint Protection Film
+          img/servicio-interior.jpg    — detallado interior
+          img/servicio-faros.jpg       — restauración de faros
+          img/servicio-wash.jpg        — wash & wax
+        Tamaño recomendado: 600 x 400 px
+        Si no subes imagen, el ícono SVG se muestra solo.
+        ════════════════════════════════════════
+        -->
+
+        <div class="service-card reveal" data-delay="0">
+          <div class="service-img-wrap">
+            <img src="img/servicio-ceramic.webp" alt="Ceramic Coating" class="service-img" width="600" height="400" onerror="this.parentElement.style.display='none';" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><path d="M12 24 C12 17 17 12 24 12 C31 12 36 17 36 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M24 36 C17 36 12 31 12 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/><circle cx="24" cy="24" r="4" fill="currentColor" opacity="0.8"/></svg>
+            </div>
+            <h3>Ceramic Coating</h3>
+            <p>Protección de larga duración contra rayones, UV y contaminantes. Brillo profundo garantizado por años.</p>
+            <div class="service-meta">
+              <span class="duration">2–3 días</span>
+              <span class="tag-premium">Premium</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-card reveal" data-delay="100">
+          <div class="service-img-wrap">
+            <img src="img/servicio-pulido.jpg" alt="Pulido de Pintura" class="service-img" width="600" height="400" onerror="this.parentElement.style.display='none';" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M8 24 Q24 8 40 24 Q24 40 8 24Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.3"/><path d="M14 24 Q24 14 34 24 Q24 34 14 24Z" stroke="currentColor" stroke-width="2" fill="none"/><path d="M20 24 Q24 20 28 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Pulido de Pintura</h3>
+            <p>Eliminamos rayones, swirl marks y oxidación. Tu pintura queda como recién salida de agencia.</p>
+            <div class="service-meta">
+              <span class="duration">1 día</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-card reveal" data-delay="200">
+          <div class="service-img-wrap">
+            <img src="img/servicio-ppf.jpg" alt="Paint Protection Film" class="service-img" width="600" height="400" onerror="this.parentElement.style.display='none';" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="10" width="28" height="28" rx="4" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><path d="M16 18 L32 18 M16 24 L32 24 M16 30 L26 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="34" cy="30" r="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M37.5 33.5 L40 36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Paint Protection Film</h3>
+            <p>Film transparente de alta tecnología que protege tu pintura de impactos, piedras y arañazos diarios.</p>
+            <div class="service-meta">
+              <span class="duration">1–2 días</span>
+              <span class="tag-premium">Premium</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-card reveal" data-delay="0">
+          <div class="service-img-wrap">
+            <img src="img/servicio-interior.jpg" alt="Detallado Interior" class="service-img" width="600" height="400" onerror="this.parentElement.style.display='none';" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M10 32 L24 16 L38 32" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><path d="M14 38 L24 22 L34 38" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="22" r="3" fill="currentColor" opacity="0.8"/></svg>
+            </div>
+            <h3>Detallado Interior</h3>
+            <p>Limpieza profunda, restauración de plásticos, tratamiento de piel y eliminación de malos olores.</p>
+            <div class="service-meta">
+              <span class="duration">4–6 hrs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-card reveal" data-delay="100">
+          <div class="service-img-wrap">
+            <img src="img/servicio-faros.png" alt="Restauración de Faros" class="service-img" width="600" height="400" onerror="this.parentElement.style.display='none';" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2"/><path d="M24 8 L24 14 M24 34 L24 40 M8 24 L14 24 M34 24 L40 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M13 13 L17 17 M31 31 L35 35 M35 13 L31 17 M17 31 L13 35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/></svg>
+            </div>
+            <h3>Restauración de Faros</h3>
+            <p>Recuperamos la transparencia y claridad de tus faros. Mejora la visibilidad y la apariencia de tu auto.</p>
+            <div class="service-meta">
+              <span class="duration">2–3 hrs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-card reveal" data-delay="200">
+          <div class="service-img-wrap">
+            <img src="img/servicio-wash.png" alt="Wash & Wax Express" class="service-img" width="600" height="400" onerror="this.parentElement.style.display='none';" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M10 38 L24 10 L38 38 Z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.3"/><path d="M16 30 L24 14 L32 30" stroke="currentColor" stroke-width="2" fill="none"/><path d="M18 26 L30 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Wash & Wax Express</h3>
+            <p>Lavado exterior completo con secado a mano y aplicación de cera de protección. Brillo rápido garantizado.</p>
+            <div class="service-meta">
+              <span class="duration">1–2 hrs</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  PROCESO
+  ============================================================ -->
+  <section class="section section-dark" id="proceso">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Cómo trabajamos</span>
+        <h2>El proceso <span class="gradient-text">Black Gloss</span></h2>
+        <p>Un método probado para resultados de nivel profesional, siempre.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal" data-delay="0">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Diagnóstico</h3>
+            <p>Llegamos a tu domicilio y hacemos una inspección completa de tu pintura bajo luz especializada para identificar daños y determinar el tratamiento ideal.</p>
+          </div>
+        </div>
+        <div class="process-connector reveal" data-delay="50"></div>
+        <div class="process-step reveal" data-delay="100">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Descontaminación</h3>
+            <p>Aplicamos un proceso de lavado y descontaminación química y mecánica para preparar la superficie.</p>
+          </div>
+        </div>
+        <div class="process-connector reveal" data-delay="150"></div>
+        <div class="process-step reveal" data-delay="200">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Corrección</h3>
+            <p>Pulido multiestapa con máquinas orbitales y de doble acción para eliminar imperfecciones sin comprometer el espesor.</p>
+          </div>
+        </div>
+        <div class="process-connector reveal" data-delay="250"></div>
+        <div class="process-step reveal" data-delay="300">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3>Protección</h3>
+            <p>Aplicación del tratamiento final: ceramic coating, PPF o cera de alta durabilidad según el servicio contratado.</p>
+          </div>
+        </div>
+        <div class="process-connector reveal" data-delay="350"></div>
+        <div class="process-step reveal" data-delay="400">
+          <div class="step-number">05</div>
+          <div class="step-content">
+            <h3>Entrega</h3>
+            <p>Inspección final contigo, documentación fotográfica del resultado y guía de mantenimiento para que el brillo dure.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  RESULTADOS — GALERÍA ANTES / DESPUÉS
+  ============================================================ -->
+  <section class="section" id="resultados">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Galería</span>
+        <h2>Resultados que <span class="gradient-text">impactan</span></h2>
+        <p>Antes y después. Nuestro trabajo habla por nosotros.</p>
+      </div>
+
+      <div class="gallery-grid">
+
+        <div class="gallery-card reveal" data-delay="0">
+          <div class="ba-card">
+            <div class="ba-half">
+              <img src="img/antes-1.png" alt="Antes — corrección de pintura" class="ba-img" width="900" height="600" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+              <div class="ba-placeholder ba-placeholder-before" style="display:none;"></div>
+              <span class="ba-label">Antes</span>
+            </div>
+            <div class="ba-half">
+              <img src="img/despues-1.png" alt="Después — corrección de pintura" class="ba-img" width="900" height="600" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+              <div class="ba-placeholder ba-placeholder-after" style="display:none;"></div>
+              <span class="ba-label after-label">Después</span>
+            </div>
+          </div>
+          <p class="gallery-caption">Corrección de pintura — Sedan negro 2021</p>
+        </div>
+
+        <div class="gallery-card reveal" data-delay="100">
+          <div class="ba-card">
+            <div class="ba-half">
+              <img src="img/antes-2.png" alt="Antes — ceramic coating" class="ba-img" width="900" height="600" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+              <div class="ba-placeholder ba-placeholder-before" style="display:none;"></div>
+              <span class="ba-label">Antes</span>
+            </div>
+            <div class="ba-half">
+              <img src="img/despues-2.jpg" alt="Después — ceramic coating" class="ba-img" width="900" height="600" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+              <div class="ba-placeholder ba-placeholder-after" style="display:none;"></div>
+              <span class="ba-label after-label">Después</span>
+            </div>
+          </div>
+          <p class="gallery-caption">Ceramic coating — SUV blanco 2022</p>
+        </div>
+
+        <div class="gallery-card reveal" data-delay="200">
+          <div class="ba-card">
+            <div class="ba-half">
+              <img src="img/antes-3.png" alt="Antes — restauración de faros" class="ba-img" width="900" height="600" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+              <div class="ba-placeholder ba-placeholder-before" style="display:none;"></div>
+              <span class="ba-label">Antes</span>
+            </div>
+            <div class="ba-half">
+              <img src="img/despues-3.png" alt="Después — restauración de faros" class="ba-img" width="900" height="600" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+              <div class="ba-placeholder ba-placeholder-after" style="display:none;"></div>
+              <span class="ba-label after-label">Después</span>
+            </div>
+          </div>
+          <p class="gallery-caption">Restauración de faros — Pickup 2019</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  TESTIMONIOS
+  ============================================================ -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Clientes</span>
+        <h2>Lo que dicen <span class="gradient-text">de nosotros</span></h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <!--
+        ════════════════════════════════════════
+        FOTOS DE CLIENTES (opcionales)
+        Si tienes fotos de tus clientes, súbelas a img/:
+          img/cliente-1.jpg
+          img/cliente-2.jpg
+          img/cliente-3.jpg
+        Si no hay foto, se muestra el avatar con iniciales.
+        ════════════════════════════════════════
+        -->
+
+        <div class="testimonial-card reveal" data-delay="0">
+          <div class="stars">★★★★★</div>
+          <p>"El ceramic coating que le pusieron a mi BMW lleva 2 años y el carro sigue brillando como el primer día. Trabajo impecable."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar-wrap">
+              <img src="img/cliente-1.jpg" alt="Carlos Rodríguez" class="author-photo" width="42" height="42" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="author-avatar" style="display:none;">CR</div>
+            </div>
+            <div>
+              <strong>Carlos Rodríguez</strong>
+              <span>BMW Serie 3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" data-delay="150">
+          <div class="stars">★★★★★</div>
+          <p>"Llevé mi camioneta con rayones profundos que pensé eran para siempre. Me la regresaron como nueva. No lo podía creer."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar-wrap">
+              <img src="img/cliente-2.jpg" alt="Mariana López" class="author-photo" width="42" height="42" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="author-avatar" style="display:none;">ML</div>
+            </div>
+            <div>
+              <strong>Mariana López</strong>
+              <span>Ford Ranger 2020</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" data-delay="300">
+          <div class="stars">★★★★★</div>
+          <p>"Excelente atención, puntualidad y el resultado fue espectacular. Son los mejores en detallado de la zona, sin duda."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar-wrap">
+              <img src="img/cliente-3.jpg" alt="Jorge Medina" class="author-photo" width="42" height="42" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="author-avatar" style="display:none;">JM</div>
+            </div>
+            <div>
+              <strong>Jorge Medina</strong>
+              <span>Audi Q5</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  CONTACTO
+  ============================================================ -->
+  <section class="section" id="contacto">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info reveal">
+          <span class="section-tag">Contacto</span>
+          <h2>Agenda tu <span class="gradient-text">cita hoy</span></h2>
+          <p>Servicio 100% a domicilio. Cuéntanos qué necesita tu auto, dinos tu dirección y llegamos a donde estás.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">🚗</div>
+              <div>
+                <strong>Servicio a domicilio</strong>
+                <span>Vamos a tu casa, oficina o donde nos digas</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Zona de cobertura</strong>
+                <span>Ciudad de México y área metropolitana</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>Teléfono / WhatsApp</strong>
+                <span>+52 55 1234 5678</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <strong>Horario</strong>
+                <span>Lunes a Sábado 8:00 – 18:00</span>
+              </div>
+            </div>
+          </div>
+
+          <!--
+          ════════════════════════════════════════
+          FOTO DEL EQUIPO / TRABAJO A DOMICILIO (opcional)
+          Sube una foto de tu equipo trabajando a domicilio o
+          de tus herramientas y productos a: img/equipo.jpg
+          Tamaño recomendado: 700 x 450 px
+          ════════════════════════════════════════
+          -->
+          <div class="taller-img-wrap">
+            <img src="img/equipo.jpg" alt="Equipo Black Gloss Steticar trabajando a domicilio" class="taller-img" width="1200" height="675" onerror="this.parentElement.style.display='none';" />
+          </div>
+
+          <a href="https://wa.me/525512345678?text=Hola%2C%20quiero%20agendar%20una%20cita%20con%20Black%20Gloss%20Steticar" class="btn btn-lg" target="_blank" rel="noopener">
+            Escríbenos por WhatsApp
+          </a>
+        </div>
+        <form class="contact-form reveal reveal-delay-1" id="contact-form">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="tel">Teléfono / WhatsApp</label>
+            <input type="tel" id="tel" name="tel" placeholder="+52 55..." required />
+          </div>
+          <div class="form-group">
+            <label for="direccion">¿Dónde te visitamos?</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Colonia, alcaldía o municipio" required />
+          </div>
+          <div class="form-group">
+            <label for="vehiculo">Vehículo</label>
+            <input type="text" id="vehiculo" name="vehiculo" placeholder="Marca, modelo y año" required />
+          </div>
+          <div class="form-group">
+            <label for="servicio">Servicio de interés</label>
+            <select id="servicio" name="servicio">
+              <option value="">Selecciona un servicio</option>
+              <option>Ceramic Coating</option>
+              <option>Pulido de Pintura</option>
+              <option>Paint Protection Film</option>
+              <option>Detallado Interior</option>
+              <option>Restauración de Faros</option>
+              <option>Wash &amp; Wax Express</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos más sobre tu auto..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-full">Enviar solicitud</button>
+          <div class="form-success" id="form-success">
+            ✓ Mensaje enviado. Te contactamos pronto.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+  FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#inicio" class="logo">
+            <img
+              src="img/logo.png"
+              alt="Black Gloss Steticar"
+              class="logo-img"
+              width="160"
+              height="40"
+
+
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <span class="logo-fallback">
+              <span class="logo-mark">BG</span>
+              <span class="logo-text">BLACK GLOSS</span>
+            </span>
+          </a>
+          <p>Detallado automotriz premium.<br />Tu auto, nuestro orgullo.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <strong>Servicios</strong>
+            <a href="#servicios">Ceramic Coating</a>
+            <a href="#servicios">Pulido de Pintura</a>
+            <a href="#servicios">PPF</a>
+            <a href="#servicios">Detallado Interior</a>
+          </div>
+          <div class="footer-col">
+            <strong>Empresa</strong>
+            <a href="#proceso">Proceso</a>
+            <a href="#resultados">Resultados</a>
+            <a href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Black Gloss Steticar. Todos los derechos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
